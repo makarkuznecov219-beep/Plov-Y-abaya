@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta name="description" content="Плов у Абая, Экибастуз: меню, заказ через WhatsApp">
+<title>Плов у Абая</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@600;800;900&family=Golos+Text:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="i-plov" viewBox="0 0 64 64"><path d="M8 34h48c0 13-10 22-24 22S8 47 8 34z"/><path d="M15 34c3-14 31-14 34 0"/><path d="M26 23c-3-4 3-6 0-10M38 23c-3-4 3-6 0-10"/></symbol>
+  <symbol id="i-skewer" viewBox="0 0 64 64"><path d="M8 56L56 8"/><rect x="16" y="36" width="12" height="12" rx="3" transform="rotate(-45 22 42)"/><rect x="26" y="26" width="12" height="12" rx="3" transform="rotate(-45 32 32)"/><rect x="36" y="16" width="12" height="12" rx="3" transform="rotate(-45 42 22)"/></symbol>
+  <symbol id="i-soup" viewBox="0 0 64 64"><path d="M8 32h48c0 14-10 24-24 24S8 46 8 32z"/><path d="M22 24c-4-5 4-7 0-13M32 24c-4-5 4-7 0-13M42 24c-4-5 4-7 0-13"/></symbol>
+  <symbol id="i-salad" viewBox="0 0 64 64"><path d="M32 10c18 6 22 28 0 44C10 38 14 16 32 10z"/><path d="M32 18v36M32 32l9-7M32 42l-9-7"/></symbol>
+  <symbol id="i-bake" viewBox="0 0 64 64"><path d="M32 12L56 52H8z"/><path d="M26 42h.01M33 34h.01M40 44h.01" stroke-width="6"/></symbol>
+  <symbol id="i-cup" viewBox="0 0 64 64"><path d="M12 24h30v16c0 8-6 14-14 14h-2c-8 0-14-6-14-14z"/><path d="M42 30h4a7 7 0 010 14h-5"/><path d="M20 12v6M28 12v6M36 12v6"/></symbol>
+  <symbol id="i-bag" viewBox="0 0 24 24"><path d="M5 8h14l-1.2 11.2a1.5 1.5 0 01-1.5 1.3H7.7a1.5 1.5 0 01-1.5-1.3z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M9 8V6.5a3 3 0 016 0V8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+</svg>
+
+<header class="top dark">
+  <div class="wrap">
+    <a class="logo" href="#top" aria-label="Плов у Абая, на главную">
+      <span class="logo-mark" aria-hidden="true">П</span>
+      <span class="logo-text">Плов у Абая</span>
+    </a>
+    <nav class="nav" aria-label="Основное меню">
+      <a class="nl" href="#menu">Меню</a>
+      <a class="nl" href="#contacts">Контакты</a>
+      <a class="cart-link" href="#cart" id="cart-link">
+        <svg aria-hidden="true"><use href="#i-bag"/></svg>
+        <span>Корзина</span>
+        <span class="badge" id="cart-count" hidden>0</span>
+      </a>
+    </nav>
+  </div>
+</header>
+
+<div id="view-main">
+  <section class="hero" id="top">
+    <div class="wrap">
+      <div class="hero-copy">
+        <span class="kicker">Кафе · Экибастуз</span>
+        <h1><span>Плов</span><span class="outline">у Абая</span></h1>
+        <p class="lead">Плов из казана, шашлык на углях, лагман и горячая самса. Соберите заказ на сайте, и мы подтвердим его в WhatsApp.</p>
+        <div class="hero-actions">
+          <a class="btn btn-ink btn-lg" href="#menu">Выбрать блюда</a>
+          <a class="btn btn-paper btn-lg" href="#cart">Открыть корзину</a>
+        </div>
+        <ul class="tags">
+          <li>Доставка</li>
+          <li>Заказ навынос</li>
+          <li>Шашлык</li>
+        </ul>
+      </div>
+      <div class="hero-art">
+        <svg viewBox="0 0 320 290" role="img" aria-label="Казан с пловом">
+          <ellipse cx="160" cy="272" rx="112" ry="12" fill="#14120A" fill-opacity=".2"/>
+          <path d="M50 150C50 240 100 268 160 268s110-28 110-118z" fill="#14120A"/>
+          <path d="M52 168C30 166 28 198 54 198" fill="none" stroke="#14120A" stroke-width="10" stroke-linecap="round"/>
+          <path d="M268 168C290 166 292 198 266 198" fill="none" stroke="#14120A" stroke-width="10" stroke-linecap="round"/>
+          <ellipse cx="160" cy="150" rx="110" ry="22" fill="#14120A"/>
+          <ellipse cx="160" cy="148" rx="98" ry="16" fill="#2A2612"/>
+          <path d="M70 148C90 80 230 80 250 148C230 166 90 166 70 148z" fill="#FFFCF0" stroke="#14120A" stroke-width="4" stroke-linejoin="round"/>
+          <g stroke="#E0A800" stroke-width="7" stroke-linecap="round" fill="none">
+            <path d="M112 128l18-9"/><path d="M150 112l16 6"/><path d="M186 124l17-9"/><path d="M134 140l16 4"/><path d="M168 138l17 5"/>
+          </g>
+          <g fill="#14120A"><circle cx="124" cy="116" r="3.5"/><circle cx="178" cy="108" r="3.5"/><circle cx="208" cy="134" r="3.5"/><circle cx="100" cy="140" r="3.5"/><circle cx="154" cy="130" r="3.5"/></g>
+          <g fill="none" stroke="#14120A" stroke-width="5" stroke-linecap="round">
+            <path d="M128 76C113 60 143 50 128 30"/><path d="M162 80C147 62 177 52 162 30"/><path d="M198 76C183 60 213 50 198 30"/>
+          </g>
+        </svg>
+        <div class="rating" aria-label="Рейтинг 4,7 из 5 в 2ГИС"><b>4,7</b><small>155 оценок<br>в 2ГИС</small></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="ticker dark" aria-hidden="true">
+    <div class="ticker-track">
+      <span>Плов</span><span>Шашлык</span><span>Лагман</span><span>Манты</span><span>Самса</span><span>Шурпа</span><span>Чай</span>
+      <span>Плов</span><span>Шашлык</span><span>Лагман</span><span>Манты</span><span>Самса</span><span>Шурпа</span><span>Чай</span>
+    </div>
+  </div>
+
+  <section class="facts">
+    <div class="wrap">
+      <ul class="facts-grid">
+        <li><small>Рейтинг в 2ГИС</small><b>4,7 из 5, 155 оценок и 107 отзывов</b></li>
+        <li><small>Как получить</small><b>Доставка и заказ навынос</b></li>
+        <li><small>Оплата</small><b>Картой, наличными, через банк, по QR-коду</b></li>
+        <li><small>Рядом</small><b>20 парковочных мест, остановка «Кулагер» в 20 м</b></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="sec" id="menu">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Меню</h2>
+        <p class="note">Тестовое меню. Блюда и цены добавлены для проверки сайта и не совпадают с реальным меню кафе.</p>
+      </div>
+      <div class="chips" id="chips" role="group" aria-label="Категории меню"></div>
+      <div id="menu-list"></div>
+    </div>
+  </section>
+
+  <section class="sec contacts dark" id="contacts">
+    <div class="wrap contacts-grid">
+      <div>
+        <h2>Заходите в гости</h2>
+        <p class="big-say" style="margin-top:1.4rem">Плов у Абая, Экибастуз. Ищите нас на улице Машхур Жусупа.</p>
+        <div class="link-row">
+          <a class="btn btn-lg" href="https://2gis.kz/ekibastuz/directions/points/%7C75.32318%2C51.7356%3B70000001113287662" target="_blank" rel="noopener">Построить маршрут</a>
+          <a class="btn btn-paper btn-lg" href="https://2gis.kz/ekibastuz/firm/70000001113287662/tab/reviews" target="_blank" rel="noopener">Отзывы в 2ГИС</a>
+        </div>
+      </div>
+      <dl class="dl">
+        <div><dt>Адрес</dt><dd>улица Машхур Жусупа, 34в, Экибастуз, Павлодарская область</dd></div>
+        <div><dt>Телефон</dt><dd><span class="phone">+7 700 369 30 27</span></dd></div>
+        <div><dt>График</dt><dd>Часы работы смотрите в <a href="https://2gis.kz/ekibastuz/firm/70000001113287662" target="_blank" rel="noopener">карточке 2ГИС</a></dd></div>
+        <div><dt>Оплата</dt><dd>Картой, наличными, через банк, по QR-коду</dd></div>
+        <div><dt>Услуги</dt><dd>Доставка, заказ навынос</dd></div>
+        <div><dt>Рядом</dt><dd>20 парковочных мест, остановка «Кулагер» в 20 метрах</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      <span>© Плов у Абая, Экибастуз</span>
+      <span>Сведения о кафе взяты из 2ГИС</span>
+    </div>
+  </footer>
+</div>
+
+<div id="view-cart" hidden>
+  <div class="wrap cart-wrap">
+    <a class="back" href="#menu">← Вернуться к меню</a>
+    <h1 class="cart-title" id="cart-title" tabindex="-1">Корзина</h1>
+
+    <div class="empty" id="cart-empty" hidden>
+      <b>Корзина пуста</b>
+      <p>Добавьте плов, шашлык или что-нибудь к чаю, и заказ появится здесь.</p>
+      <a class="btn btn-ink" href="#menu">Перейти к меню</a>
+    </div>
+
+    <div class="cart-grid" id="cart-full">
+      <div class="receipt-wrap">
+        <div class="receipt">
+          <div class="r-head"><b>Плов у Абая</b><span>Экибастуз · Машхур Жусупа, 34в</span><span id="r-date"></span></div>
+          <ul class="lines" id="lines"></ul>
+          <div class="r-total"><span>Итого</span><b id="r-total">0 ₸</b></div>
+          <p class="r-foot">Спасибо, что выбрали нас</p>
+        </div>
+      </div>
+
+      <form class="order" id="order-form" novalidate>
+        <h2>Оформление</h2>
+        <fieldset class="field">
+          <legend>Как получите заказ</legend>
+          <div class="modes">
+            <label class="mode"><input type="radio" name="mode" id="mode-pickup" value="pickup" checked> Самовывоз</label>
+            <label class="mode"><input type="radio" name="mode" id="mode-delivery" value="delivery"> Доставка</label>
+          </div>
+        </fieldset>
+        <div class="field" id="addr-wrap" hidden>
+          <label for="f-addr">Адрес доставки</label>
+          <input class="input" id="f-addr" type="text" autocomplete="street-address" placeholder="Улица, дом, квартира">
+        </div>
+        <div class="field">
+          <label for="f-name">Ваше имя</label>
+          <input class="input" id="f-name" type="text" autocomplete="name" placeholder="Как к вам обращаться">
+        </div>
+        <div class="field">
+          <label for="f-note">Комментарий к заказу</label>
+          <textarea class="input" id="f-note" placeholder="Например: без лука, острое отдельно"></textarea>
+        </div>
+        <p class="err" id="order-err" role="alert" hidden></p>
+        <a class="btn btn-ink btn-lg" id="order-btn" href="#cart" target="_blank" rel="noopener">Оформить заказ в WhatsApp</a>
+        <p class="hint">Откроется чат WhatsApp с готовым текстом заказа. Заказ уйдёт в кафе, когда вы отправите сообщение.</p>
+        <button class="btn btn-paper" type="button" id="copy-btn">Скопировать текст заказа</button>
+        <textarea class="input copybox" id="copybox" readonly hidden aria-label="Текст заказа"></textarea>
+        <p class="test-note" id="test-note" hidden></p>
+      </form>
+    </div>
+  </div>
+</div>
+
+<a class="cartbar" id="cartbar" href="#cart" hidden>
+  <span>Корзина · <span id="cb-n">0</span></span>
+  <span class="cb-sum" id="cb-sum"></span>
+  <span>Открыть →</span>
+</a>
+<script src="app.js"></script>
+</body>
+</html>
